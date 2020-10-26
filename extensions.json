@@ -1,0 +1,18 @@
+{
+    "extensions": [{
+            "builtin": "False",
+            "default_enabled": "True",
+            "type": "extension",
+            "rocket_mode_compatible": "False",
+            "name": "MEPDesign",
+            "description": "Extensions for Revit MEP",
+            "author": "André Rodrigues da Silva",
+            "author_profile": "https://github.com/andrerdsilva",
+            "url": "",
+            "website": "",
+            "image": "",
+            "dependencies": []
+        }
+       
+    ]
+}
