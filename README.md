@@ -4,11 +4,11 @@ MEP Extensions for Revit.
 # Getting Started
 Getting started with MEPDesign for your own use is very simple, use Git or download the extension and add in PyRevit.
 
-In PyRevit go to Settings;
+Clone this repository and in PyRevit go to Settings;
 
 <img src="https://github.com/andrerdsilva/MEPDesign/blob/main/Images/Settings-PyRevit.png?raw=true"/>
 
-In Custom Extension Directiories select folder with you downloaded the MEPDesign in your machine.
+In Custom Extension Directiories select folder with you installed the MEPDesign in your machine.
 
 <img src="https://github.com/andrerdsilva/MEPDesign/blob/main/Images/Foldes-PyRevit.png?raw=true"/>
 
