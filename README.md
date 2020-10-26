@@ -16,13 +16,10 @@ In the end Reload PyRevit!
 
 # Update the extension
 
-For update the extension, go to Extension:
 
-<img src = "https://github.com/andrerdsilva/MEPDesign/blob/main/Images/Extensions.png?raw=true"/>
+## Automatic
 
-After, select Update Extension Settings.
-
-<img src = "https://github.com/andrerdsilva/MEPDesign/blob/main/Images/Update%20Extension.png?raw=true"/>
+Use pyRevit update function
 
 ## Functions
 
