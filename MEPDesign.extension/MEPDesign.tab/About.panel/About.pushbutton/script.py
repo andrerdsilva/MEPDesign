@@ -9,7 +9,7 @@ __author__ = 'André Rodrigues da Silva'
 import webbrowser
 
 
-url = 'https://github.com/andrerdsilva'
+url = 'https://pt-br.facebook.com/'
 
 # Open URL in a new tab, if a browser window is already open.
 webbrowser.open_new_tab(url)
