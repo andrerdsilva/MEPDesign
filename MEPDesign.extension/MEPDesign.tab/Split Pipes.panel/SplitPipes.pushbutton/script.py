@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-""" Split Pipe by distance.  """
+""" Split ALL Pipes by PipeType and distance."""
 
-__title__ = 'Pipe Split'
+__title__ = 'Split Pipes'
 __author__ = 'André Rodrigues da Silva'
 
 from rpw import revit, db
@@ -30,7 +30,7 @@ try:
 				   TextBox('distance', Text="3.0"),
 				   Separator(),
 				   Button('Select')]
-	form = FlexForm('Pipe Split', components)
+	form = FlexForm('Split Pipes', components)
 	form.show()
 
 	TuboMaterial = form.values['PipeType']
