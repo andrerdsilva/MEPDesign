@@ -6,11 +6,7 @@ Getting started with MEPDesign for your own use is very simple, use Git or downl
 
 Clone this repository and in PyRevit go to Settings;
 
-<img src="https://github.com/andrerdsilva/MEPDesign/blob/main/Images/Settings-PyRevit.png?raw=true"/>
-
 In Custom Extension Directiories select folder with you installed the MEPDesign in your machine.
-
-<img src="https://github.com/andrerdsilva/MEPDesign/blob/main/Images/Foldes-PyRevit.png?raw=true"/>
 
 In the end Reload PyRevit!
 
