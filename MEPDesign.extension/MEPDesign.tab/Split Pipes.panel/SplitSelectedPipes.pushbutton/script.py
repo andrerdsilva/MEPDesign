@@ -19,13 +19,17 @@ try:
 	components = [Label('Select the distance for split pipes:'),
 				   Label('Distance:'),
 				   TextBox('distance', Text="3.0"),
+				   Label('Parameters separated by ",":'),
+				   TextBox('parameters', Text=""),
 				   Separator(),
-				   Button('Select')]
+				   Button('Process')]
 	form = FlexForm('Split Pipes', components)
 	form.show()
 
 	L = float(form.values['distance'])*3.28084
-
+	P = form.values['parameters']
+	P = P.split(",")
+	
 	TuboSelecionado = []
 
 	#Tubos com comprimento maior que o selecionado
@@ -63,6 +67,11 @@ try:
 				pipe = pipes[t]
 				newPipeId = BreakCurve(doc, pipe.Id, dbPoint)
 				newPipe = doc.GetElement(newPipeId)	
+				
+				if(P[0]!=''):
+					for z in range(0,len(P)):
+						newPipe.LookupParameter(P[z]).Set(str(pipe.LookupParameter(P[z]).AsString()))
+						
 				newPipeConnectors = newPipe.ConnectorManager.Connectors
 				connA = None
 				connB = None
@@ -73,6 +82,11 @@ try:
 						connA = c
 						connB = nearest[0]
 				takeoff = doc.Create.NewUnionFitting(connA, connB)	
+				
+				if(P[0]!=''):
+					for z in range(0,len(P)):
+						takeoff.LookupParameter(P[z]).Set(str(pipe.LookupParameter(P[z]).AsString()))
+						
 	except:
 		transaction.RollBack()
 	else:
