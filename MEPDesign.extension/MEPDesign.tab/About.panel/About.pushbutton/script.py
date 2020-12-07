@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """ Open about information in default browser.  """
 
-__context__ = 'zerodoc'
+__context__ = 'zero-doc'
 
 __title__ = 'About'
 __author__ = 'André Rodrigues da Silva'
