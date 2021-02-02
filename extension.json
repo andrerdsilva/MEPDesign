@@ -1,0 +1,14 @@
+{
+    "builtin": "False",
+    "default_enabled": "False",
+    "type": "extension",
+    "rocket_mode_compatible": "True",
+    "name": "MEPDesign",
+    "description": "Extensions for Revit MEP",
+    "author": "André Rodrigues da Silva",
+    "author_profile": "https://github.com/andrerdsilva",
+    "url": "https://github.com/andrerdsilva/MEPDesign.git",
+    "website": "http://engenheirohidraulico.com.br/",
+    "image": "",
+    "dependencies": []
+}
