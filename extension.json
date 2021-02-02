@@ -1,6 +1,6 @@
 {
     "builtin": "False",
-    "default_enabled": "False",
+    "default_enabled": "True",
     "type": "extension",
     "rocket_mode_compatible": "True",
     "name": "MEPDesign",
