@@ -25,7 +25,8 @@ Here is a short description of the existing functions:
 
 # Authors
 **André Rodrigues da Silva** : 
-[<img src="https://www.flaticon.com/svg/static/icons/svg/2111/2111425.svg" width="30"/>](https://github.com/andrerdsilva)
+<i class="fa-brands fa-github"></i>
+[<img src=" width="30"/>](https://github.com/andrerdsilva)
 [<img src="https://www.flaticon.com/svg/static/icons/svg/49/49084.svg" width="30"/>](https://www.youtube.com/channel/UCpMIG0lIf_rYpQY5mO2AUVQ?view_as=subscriber)
 [<img src="https://www.flaticon.com/svg/static/icons/svg/1384/1384005.svg" width="30"/>](https://www.facebook.com/engenheiro.hidraulico)
 [<img src="https://www.flaticon.com/svg/static/icons/svg/1384/1384015.svg" width="30"/>](https://www.instagram.com/engenheiro.hidraulico/)
