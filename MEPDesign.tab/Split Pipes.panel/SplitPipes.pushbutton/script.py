@@ -26,7 +26,7 @@ try:
 
 	components = [Label('Select the pipe type:'),
 				   ComboBox('PipeType', PipeTypes),
-				   Label('Distance:'),
+				   Label('Distance [m]:'),
 				   TextBox('distance', Text="3.0"),
 				   Label('Parameters separated by ",":'),
 				   TextBox('parameters', Text=""),
