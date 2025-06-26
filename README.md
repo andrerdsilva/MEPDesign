@@ -21,6 +21,7 @@ Use pyRevit update function
 
 Here is a short description of the existing functions:
 *  PipeSplit: Split pipes by points and distances.
+*  RemoveDuplicates: Removes duplicate elements.
 
 
 # Authors
