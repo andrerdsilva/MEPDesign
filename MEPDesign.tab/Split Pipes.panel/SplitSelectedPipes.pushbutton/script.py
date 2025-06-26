@@ -17,7 +17,7 @@ try:
 	Tubos = ui.Selection()
 
 	components = [Label('Select the distance for split pipes:'),
-				   Label('Distance:'),
+				   Label('Distance [m]:'),
 				   TextBox('distance', Text="3.0"),
 				   Label('Parameters separated by ",":'),
 				   TextBox('parameters', Text=""),
